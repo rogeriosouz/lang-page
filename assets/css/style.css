@@ -203,6 +203,7 @@ section {
   max-width: 36rem;
   max-height: 36rem;
   overflow: hidden;
+  margin: auto;
 }
 
 
@@ -353,6 +354,10 @@ section {
 .mesage-grid textarea {
   width: 100%;
   font-size: 1.8rem;
+  padding: 10px;
+}
+.mesage-grid textarea, .mesage-grid input {
+  border-radius: 2px;
 }
 
 .form-grup button {
@@ -396,6 +401,9 @@ section {
 }
 
 @media  (max-width: 493px) {
+  .tamanho-sessao-grid-img h1, .tamanho-sessao-grid-img p {
+    text-align: center;
+  }
   .grid h1 {
     font-size: 2.0em;
     text-align: center;
