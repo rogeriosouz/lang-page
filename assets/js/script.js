@@ -1,4 +1,12 @@
-let sessaoAparecer = document.querySelector('.sessao-but-hamb')
+const sessaoAparecer = document.querySelector('.sessao-but-hamb')
+
+const form = document.querySelector('#formulario');
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+})
+
+
 function butaoHamburque(p) {
   if (sessaoAparecer.classList.value == 'sessao-but-hamb nao-aparece') {
     sessaoAparecer.classList.remove('nao-aparece')
